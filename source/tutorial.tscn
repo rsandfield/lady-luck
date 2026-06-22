@@ -97,6 +97,47 @@ offset_top = 3.0
 offset_right = 1099.0
 offset_bottom = 646.0
 theme_override_styles/panel = ExtResource("2_jo60t")
+metadata/_edit_lock_ = true
+
+[node name="LabelDoor" type="Label" parent="HighlightGrid" unique_id=125773119]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 49.0
+offset_right = 359.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(1, 0.654902, 0, 1)
+theme_override_fonts/font = ExtResource("2_kv874")
+theme_override_font_sizes/font_size = 24
+text = "Door"
+horizontal_alignment = 1
+
+[node name="LabelPaths" type="Label" parent="HighlightGrid" unique_id=1522324910]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 521.0
+offset_right = 354.0
+offset_bottom = 553.0
+theme_override_colors/font_color = Color(1, 0.654902, 0, 1)
+theme_override_fonts/font = ExtResource("2_kv874")
+theme_override_font_sizes/font_size = 24
+text = "Paths"
+horizontal_alignment = 1
+
+[node name="HighlightDoor" type="Panel" parent="HighlightGrid" unique_id=884598385]
+layout_mode = 0
+offset_left = 78.0
+offset_top = 80.0
+offset_right = 325.0
+offset_bottom = 168.0
+theme_override_styles/panel = ExtResource("2_jo60t")
+
+[node name="HighlightPaths" type="Panel" parent="HighlightGrid" unique_id=1173445584]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 552.0
+offset_right = 399.0
+offset_bottom = 637.0
+theme_override_styles/panel = ExtResource("2_jo60t")
 
 [node name="HighlightLuck" type="Panel" parent="." unique_id=954046611]
 layout_mode = 0

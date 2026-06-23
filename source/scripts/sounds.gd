@@ -4,6 +4,11 @@ var track_1 = "res://assets/sound/track_1_hyperfishation.mp3"
 var track_2 = "res://assets/sound/track_2_melodys_melodies.mp3"
 var track_3 = "res://assets/sound/track_3_just_a_feeling.mp3"
 
+var theme_1 = "res://assets/sound/lady-lucks-door-theme.mp3"
+var theme_2 = "res://assets/sound/lady-lucks-door-theme_w-vocals.mp3" 
+
+
+
 var sound_test_time = 0
 
 
@@ -71,14 +76,13 @@ func _set_music_track() -> void:
 	#print_debug("_set_music_track: " + str(Data.setting_music_type) )
 
 	if Data.setting_music_type == 1:
-		%Music.stream = load(track_1)
+		%Music.stream = load(theme_1)
 	
 	if Data.setting_music_type == 2:
-		#%Music.stream = load(track_2)
-		%Music.stream = load(track_3)
+		%Music.stream = load(theme_2)
 	
 	if Data.setting_music_type == 3:
-		%Music.stream = load(track_3)
+		%Music.stream = load(track_1)
 
 	%Music.play()
 

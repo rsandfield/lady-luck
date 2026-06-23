@@ -228,10 +228,10 @@ metadata/_edit_lock_ = true
 [node name="Archive" type="Node2D" parent="." unique_id=1434869866]
 
 [node name="CreditsNames" type="RichTextLabel" parent="Archive" unique_id=475053237]
-offset_left = 61.0
-offset_top = -277.0
-offset_right = 1213.0
-offset_bottom = -53.0
+offset_left = 23.0
+offset_top = -280.0
+offset_right = 1175.0
+offset_bottom = -56.0
 mouse_filter = 2
 theme_override_colors/default_color = Color(0.93138474, 0.8036014, 0.8981877, 1)
 theme_override_constants/outline_size = 6

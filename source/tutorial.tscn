@@ -46,19 +46,27 @@ offset_top = -19.0
 offset_right = 1245.0
 offset_bottom = 683.0
 
+[node name="Panel4" type="Panel" parent="." unique_id=887261766]
+layout_mode = 0
+offset_left = 642.0
+offset_top = -240.0
+offset_right = 693.0
+offset_bottom = 423.0
+
 [node name="PanelLuck" type="Panel" parent="." unique_id=1567959409]
 layout_mode = 0
 offset_left = -6.0
 offset_top = -107.0
-offset_right = 693.0
+offset_right = 642.0
 offset_bottom = 427.0
 
 [node name="PanelGrid" type="Panel" parent="." unique_id=510186832]
 layout_mode = 0
-offset_left = 694.0
+offset_left = 693.0
 offset_top = -153.0
 offset_right = 1098.0
 offset_bottom = 753.0
+metadata/_edit_lock_ = true
 
 [node name="PanelSlots" type="Panel" parent="." unique_id=8236084]
 layout_mode = 0

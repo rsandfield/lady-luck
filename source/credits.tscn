@@ -10,7 +10,6 @@
 [ext_resource type="StyleBox" uid="uid://b22y23a1u23dl" path="res://assets/themes/style_box_flat_purple_light_hover.tres" id="5_7n2ak"]
 [ext_resource type="Texture2D" uid="uid://b6lahcmed0rc0" path="res://assets/art/pigsquad-ssj-june.png" id="5_kh4jm"]
 [ext_resource type="Texture2D" uid="uid://b288r0yu5c4dh" path="res://assets/art/godot-madewith.jpg" id="6_7n2ak"]
-[ext_resource type="Texture2D" uid="uid://c46ewlhbk4xpw" path="res://assets/art/placeholder-luckcredits.png" id="8_nkten"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_px1gm"]
 bg_color = Color(0.45840502, 0.45840508, 0.45840502, 1)
@@ -228,32 +227,6 @@ texture = ExtResource("6_7n2ak")
 
 [node name="Archive" type="Node2D" parent="." unique_id=1434869866]
 
-[node name="Label" type="RichTextLabel" parent="Archive" unique_id=975058325]
-offset_left = -1187.0
-offset_top = -682.0
-offset_right = -33.0
-offset_bottom = -34.0
-bbcode_enabled = true
-text = "Give credit to those who worked on the project
-
-Thank people and organizations who helped along the way
-
-
-
-
-
-
-
-
-
-Sample Music by Ethan Grafton
-Track 1: Hyperfishation 
-Track 2: Melody's Melodies 
-Track 3: Just A Feeling
-"
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="CreditsNames" type="RichTextLabel" parent="Archive" unique_id=475053237]
 offset_left = 61.0
 offset_top = -277.0
@@ -272,11 +245,6 @@ Stephen Frister          ::  Implementation & Animation       ::   [https://infi
 Mercury Nightstone  ::  UI Artist                                        ::  [https://mercury-hg.itch.io/] 
 
 Music by Ethan Grafton"
-
-[node name="PlaceholderCreditsluck" type="Sprite2D" parent="Archive" unique_id=710333687]
-visible = false
-position = Vector2(555, 246)
-texture = ExtResource("8_nkten")
 
 [connection signal="pressed" from="CenterContainer/Control/Back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="BackControl" to="." method="_on_back_pressed"]

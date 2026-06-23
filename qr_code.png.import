@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chlqo430xqloa"
-path="res://.godot/imported/placeholder-glass.png-589b769d1bdb9d8fb121b952b056e4e0.ctex"
+uid="uid://bq4ti38psuqk2"
+path="res://.godot/imported/qr_code.png-46966e5383f024aa7028e5a865a44839.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/placeholder-glass.png"
-dest_files=["res://.godot/imported/placeholder-glass.png-589b769d1bdb9d8fb121b952b056e4e0.ctex"]
+source_file="res://qr_code.png"
+dest_files=["res://.godot/imported/qr_code.png-46966e5383f024aa7028e5a865a44839.ctex"]
 
 [params]
 

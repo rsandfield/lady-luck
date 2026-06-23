@@ -405,9 +405,9 @@ mouse_filter = 2
 [node name="Music1" type="Button" parent="InterfaceContainer/SoundControl/MusicButton" unique_id=355765080]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 233.0
+offset_left = 231.0
 offset_top = -2.0
-offset_right = 259.0
+offset_right = 291.0
 offset_bottom = 25.0
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_kfqdp")
@@ -415,23 +415,23 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_kfqdp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_kfqdp")
 theme_override_styles/disabled = SubResource("StyleBoxFlat_kfqdp")
 theme_override_styles/focus = SubResource("StyleBoxFlat_kfqdp")
-text = "1"
+text = "Theme"
 
 [node name="Panel" type="Panel" parent="InterfaceContainer/SoundControl/MusicButton/Music1" unique_id=904568014]
 show_behind_parent = true
 layout_mode = 0
 offset_left = -1.0
 offset_top = -1.0
-offset_right = 27.0
+offset_right = 61.0
 offset_bottom = 28.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_mv7qn")
 
 [node name="Music2" type="Button" parent="InterfaceContainer/SoundControl/MusicButton" unique_id=165535234]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 264.0
+offset_left = 294.0
 offset_top = -2.0
-offset_right = 290.0
+offset_right = 354.0
 offset_bottom = 25.0
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_hvpw6")
@@ -439,14 +439,14 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_hvpw6")
 theme_override_styles/hover = SubResource("StyleBoxFlat_hvpw6")
 theme_override_styles/disabled = SubResource("StyleBoxFlat_hvpw6")
 theme_override_styles/focus = SubResource("StyleBoxFlat_hvpw6")
-text = "2"
+text = "Vocals"
 
 [node name="Panel" type="Panel" parent="InterfaceContainer/SoundControl/MusicButton/Music2" unique_id=55047538]
 show_behind_parent = true
 layout_mode = 0
 offset_left = -1.0
 offset_top = -1.0
-offset_right = 27.0
+offset_right = 61.0
 offset_bottom = 28.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_gnrrh")
 

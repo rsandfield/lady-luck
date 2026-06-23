@@ -10,6 +10,7 @@
 [ext_resource type="StyleBox" uid="uid://b22y23a1u23dl" path="res://assets/themes/style_box_flat_purple_light_hover.tres" id="5_7n2ak"]
 [ext_resource type="Texture2D" uid="uid://b6lahcmed0rc0" path="res://assets/art/pigsquad-ssj-june.png" id="5_kh4jm"]
 [ext_resource type="Texture2D" uid="uid://b288r0yu5c4dh" path="res://assets/art/godot-madewith.jpg" id="6_7n2ak"]
+[ext_resource type="Texture2D" uid="uid://bq4ti38psuqk2" path="res://qr_code.png" id="11_3lhws"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_px1gm"]
 bg_color = Color(0.45840502, 0.45840508, 0.45840502, 1)
@@ -132,10 +133,10 @@ anchors_preset = 0
 
 [node name="CreditsMyMonkey" type="LinkButton" parent="Control" unique_id=757407669]
 layout_mode = 0
-offset_left = 744.0
-offset_top = 426.0
-offset_right = 1083.0
-offset_bottom = 457.0
+offset_left = 745.0
+offset_top = 425.0
+offset_right = 1084.0
+offset_bottom = 456.0
 theme_override_fonts/font = ExtResource("2_mm0m6")
 theme_override_font_sizes/font_size = 24
 text = "https://mymonkeygames.itch.io/"
@@ -143,9 +144,9 @@ text = "https://mymonkeygames.itch.io/"
 [node name="CreditsMurkyHgLink" type="LinkButton" parent="Control" unique_id=1899197202]
 layout_mode = 0
 offset_left = 745.0
-offset_top = 457.0
+offset_top = 456.0
 offset_right = 1029.0
-offset_bottom = 488.0
+offset_bottom = 487.0
 theme_override_fonts/font = ExtResource("2_mm0m6")
 theme_override_font_sizes/font_size = 24
 text = "https://mercury-hg.itch.io/"
@@ -153,9 +154,9 @@ text = "https://mercury-hg.itch.io/"
 [node name="CreditsRSandfield" type="LinkButton" parent="Control" unique_id=929193413]
 layout_mode = 0
 offset_left = 745.0
-offset_top = 488.0
+offset_top = 487.0
 offset_right = 1060.0
-offset_bottom = 519.0
+offset_bottom = 518.0
 theme_override_fonts/font = ExtResource("2_mm0m6")
 theme_override_font_sizes/font_size = 24
 text = "https://github.com/rsandfield/"
@@ -163,9 +164,9 @@ text = "https://github.com/rsandfield/"
 [node name="CreditsInfinite8bit" type="LinkButton" parent="Control" unique_id=623054338]
 layout_mode = 0
 offset_left = 745.0
-offset_top = 519.0
+offset_top = 518.0
 offset_right = 1156.0
-offset_bottom = 550.0
+offset_bottom = 549.0
 theme_override_fonts/font = ExtResource("2_mm0m6")
 theme_override_font_sizes/font_size = 24
 text = "https://infinite8bit-studios.itch.io/"
@@ -225,6 +226,31 @@ offset_right = 1154.0
 offset_bottom = 648.0
 metadata/_edit_lock_ = true
 
+[node name="QrCodeButton" type="Button" parent="." unique_id=139158101]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -10.0
+offset_top = 556.0
+offset_right = 94.0
+offset_bottom = 660.0
+
+[node name="QrCodeSmall" type="Sprite2D" parent="QrCodeButton" unique_id=1392549125]
+position = Vector2(59.000004, 45)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("11_3lhws")
+
+[node name="QrCodePopup" type="Node2D" parent="." unique_id=69512081]
+visible = false
+position = Vector2(-46, -33)
+
+[node name="QrCodeCloseButton" type="Button" parent="QrCodePopup" unique_id=933167757]
+offset_right = 1251.0
+offset_bottom = 713.0
+
+[node name="QrCodeLarge" type="Sprite2D" parent="QrCodePopup" unique_id=1259250882]
+position = Vector2(622, 281)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("11_3lhws")
+
 [node name="Archive" type="Node2D" parent="." unique_id=1434869866]
 
 [node name="CreditsNames" type="RichTextLabel" parent="Archive" unique_id=475053237]
@@ -254,3 +280,5 @@ Music by Ethan Grafton"
 [connection signal="pressed" from="Panel_Squad/Label" to="." method="_on_pigsquad_pressed"]
 [connection signal="pressed" from="Panel_Godot/Label" to="." method="_on_godot_pressed"]
 [connection signal="pressed" from="BackControl" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="QrCodeButton" to="." method="_on_qr_code_button_pressed"]
+[connection signal="pressed" from="QrCodePopup/QrCodeCloseButton" to="." method="_on_qr_code_close_button_pressed"]

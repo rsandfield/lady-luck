@@ -10,14 +10,14 @@
 [ext_resource type="Texture2D" uid="uid://cj7yo8w7kwkw5" path="res://assets/art/lady luck art/hair ornament/mid feather.PNG" id="9_b8350"]
 [ext_resource type="Texture2D" uid="uid://dywgbtnvy51u2" path="res://assets/art/lady luck art/hair ornament/small feather.PNG" id="10_efo0s"]
 [ext_resource type="Texture2D" uid="uid://daemqe2oy4lm8" path="res://assets/art/lady luck art/hair ornament/black feathers.PNG" id="11_i732k"]
+[ext_resource type="Texture2D" uid="uid://fxfq8lchgneh" path="res://assets/art/lady luck art/earrings.png" id="12_h1kj3"]
 [ext_resource type="Texture2D" uid="uid://chsnft2gxalqd" path="res://assets/art/lady luck art/face wait.png" id="12_lhrlm"]
 [ext_resource type="Texture2D" uid="uid://cb2cg3ycg5nku" path="res://assets/art/lady luck art/hair ornament/wood ornament.PNG" id="12_vw6q3"]
 [ext_resource type="Texture2D" uid="uid://dwkg2214dvws0" path="res://assets/art/lady luck art/face kiss.png" id="13_h1kj3"]
 [ext_resource type="Texture2D" uid="uid://dcsfim5t2nxrq" path="res://assets/art/lady luck art/face smile.PNG" id="13_op2ko"]
 [ext_resource type="Texture2D" uid="uid://di4wqq1826g8x" path="res://assets/art/lady luck art/hair strand.PNG" id="14_6uxrn"]
 [ext_resource type="Texture2D" uid="uid://babv0lmmsv1cc" path="res://assets/art/lady luck art/face ooh.png" id="14_qr7ip"]
-[ext_resource type="Texture2D" uid="uid://b4gtrvl4eacjo" path="res://assets/art/lady luck art/hair bangs/hair bangs 2.PNG" id="15_j6e3k"]
-[ext_resource type="Texture2D" uid="uid://citwhdb4rf25r" path="res://assets/art/lady luck art/hair bangs/hair bangs lines.PNG" id="16_mic5a"]
+[ext_resource type="Texture2D" uid="uid://drxyisbfivyyj" path="res://assets/art/lady luck art/hair bangs/hair bangs.PNG" id="18_qr7ip"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3j7hh"]
 size = Vector2(1, 1)
@@ -318,7 +318,7 @@ polygon = PackedVector2Array(333.5454, 507.6649, 401.73218, 376.74637, 431.73425
 uv = PackedVector2Array(333.5454, 507.6649, 401.73218, 376.74637, 431.73425, 352.19913, 429.00684, 303.10468, 494.46606, 112.18182, 521.7407, 79.452194, 701.7538, -13.281769, 748.1207, 82.17966, 639.022, 158.5488, 589.9275, 150.3664, 587.2001, 194.00592, 565.38025, 349.47165, 557.1979, 401.2936, 461.73645, 657.67566)
 
 [node name="Body" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape" unique_id=1995459273]
-position = Vector2(3.7189636, 678.03705)
+position = Vector2(-22.283005, 678.4865)
 rotation = -0.017283665
 scale = Vector2(1.0000001, 1.0000001)
 offset = Vector2(-339.47092, -1313.0653)
@@ -372,6 +372,14 @@ texture = ExtResource("12_vw6q3")
 polygon = PackedVector2Array(157.13269, 322.5916, 252.5615, 211.89417, 355.62466, 297.14392, 271.6473, 411.6585)
 uv = PackedVector2Array(157.13269, 322.5916, 252.5615, 211.89417, 355.62466, 297.14392, 271.6473, 411.6585)
 
+[node name="Earrings" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head" unique_id=147548119]
+position = Vector2(-400.08102, -407.25708)
+rotation = -0.05349535
+scale = Vector2(1.0000007, 1.0000007)
+texture = ExtResource("12_h1kj3")
+polygon = PackedVector2Array(215.86914, 433.42282, 322.1629, 541.4881, 485.14667, 550.3459, 522.3494, 415.70718, 368.2235, 359.01718)
+uv = PackedVector2Array(215.86914, 433.42282, 322.1629, 541.4881, 485.14667, 550.3459, 522.3494, 415.70718, 368.2235, 359.01718)
+
 [node name="Face_Wait" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head" unique_id=1291827038]
 visible = false
 position = Vector2(-14.276165, 29.830536)
@@ -412,7 +420,7 @@ polygon = PackedVector2Array(332.1697, 527.65454, 481.92935, 495.4632, 532.3158,
 uv = PackedVector2Array(332.1697, 527.65454, 481.92935, 495.4632, 532.3158, 335.9062, 435.7418, 225.336, 280.3837, 300.91565, 232.79648, 450.6753)
 
 [node name="HairStrand" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head" unique_id=1600932440]
-position = Vector2(-24.478968, -71.42315)
+position = Vector2(-43.491425, -71.09451)
 rotation = -0.01892802
 scale = Vector2(1.0000005, 1.0000005)
 offset = Vector2(-335.06442, -353.0052)
@@ -420,21 +428,14 @@ texture = ExtResource("14_6uxrn")
 polygon = PackedVector2Array(231.31538, 485.51385, 218.6967, 446.60626, 251.29497, 412.95642, 304.92438, 416.11108, 327.00708, 406.6471, 318.59467, 377.2035, 297.56348, 337.2443, 365.91473, 325.67715, 360.65692, 380.35815, 385.89435, 425.5751, 366.9663, 460.2765, 322.8009, 482.3592, 278.6355, 489.7201, 270.22302, 507.5966, 287.0479, 532.834, 252.34654, 534.9371)
 uv = PackedVector2Array(231.31538, 485.51385, 218.6967, 446.60626, 251.29497, 412.95642, 304.92438, 416.11108, 327.00708, 406.6471, 318.59467, 377.2035, 297.56348, 337.2443, 365.91473, 325.67715, 360.65692, 380.35815, 385.89435, 425.5751, 366.9663, 460.2765, 322.8009, 482.3592, 278.6355, 489.7201, 270.22302, 507.5966, 287.0479, 532.834, 252.34654, 534.9371)
 
-[node name="HairBangs2" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head/HairStrand" unique_id=1833388093]
-position = Vector2(117.90912, -50.19452)
-rotation = 0.0016443509
-scale = Vector2(0.99999994, 0.99999994)
+[node name="HairBangs" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head" unique_id=1833388093]
+position = Vector2(73.93747, -123.52021)
+rotation = -0.017283669
+scale = Vector2(1.0000004, 1.0000004)
 offset = Vector2(-453.47083, -302.0654)
-texture = ExtResource("15_j6e3k")
+texture = ExtResource("18_qr7ip")
 polygon = PackedVector2Array(425.5144, 326.77982, 374.28473, 371.86194, 312.80908, 402.59976, 204.20215, 412.8457, 191.90698, 351.37006, 243.13672, 341.1241, 294.3664, 222.27124, 337.39935, 230.46799, 423.4652, 171.04153, 450.10468, 189.48422, 530.023, 183.33667, 566.9084, 218.17285, 564.8592, 275.5501, 599.6954, 310.3863, 591.4986, 382.10788, 499.28516, 402.59976, 433.71118, 386.20627)
 uv = PackedVector2Array(425.5144, 326.77982, 374.28473, 371.86194, 312.80908, 402.59976, 204.20215, 412.8457, 191.90698, 351.37006, 243.13672, 341.1241, 294.3664, 222.27124, 337.39935, 230.46799, 423.4652, 171.04153, 450.10468, 189.48422, 530.023, 183.33667, 566.9084, 218.17285, 564.8592, 275.5501, 599.6954, 310.3863, 591.4986, 382.10788, 499.28516, 402.59976, 433.71118, 386.20627)
-
-[node name="HairBangsLines" type="Polygon2D" parent="HBoxContainer/TempCharacter/EmptyShape/Head/HairStrand/HairBangs2" unique_id=1318488964]
-position = Vector2(2.999939, 5)
-offset = Vector2(-456.47083, -307.0654)
-texture = ExtResource("16_mic5a")
-polygon = PackedVector2Array(233.35571, 412.85287, 615.45276, 426.8491, 612.6535, 328.87552, 588.8599, 263.09323, 528.67615, 170.71811, 433.50177, 166.51926, 313.13422, 195.91133, 252.95044, 253.29587, 238.95422, 351.26947)
-uv = PackedVector2Array(233.35571, 412.85287, 615.45276, 426.8491, 612.6535, 328.87552, 588.8599, 263.09323, 528.67615, 170.71811, 433.50177, 166.51926, 313.13422, 195.91133, 252.95044, 253.29587, 238.95422, 351.26947)
 
 [node name="Skeleton2D" type="Skeleton2D" parent="HBoxContainer/TempCharacter" unique_id=333788639]
 visible = false

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://5el0paxnlnxc" path="res://source/scripts/start.gd" id="1_d1xti"]
 [ext_resource type="Theme" uid="uid://buaj3vpul0yeq" path="res://assets/themes/current_theme.tres" id="2_5ah3m"]
 [ext_resource type="FontFile" uid="uid://cr1saxylaqak3" path="res://assets/fonts/RobotoMono-Regular.ttf" id="2_iugiy"]
-[ext_resource type="Texture2D" uid="uid://bttmqqhmjtuug" path="res://assets/art/background-green_velvet.png" id="2_o7yua"]
+[ext_resource type="Texture2D" uid="uid://bttmqqhmjtuug" path="res://assets/art/background-green-velvet.png" id="2_o7yua"]
 [ext_resource type="FontFile" uid="uid://vouhpit8vlis" path="res://assets/fonts/Amarante-Regular.ttf" id="2_y1c4o"]
 [ext_resource type="StyleBox" uid="uid://bjjs87buslrdx" path="res://assets/themes/style_box_flat_blue_light.tres" id="3_d4h25"]
 [ext_resource type="Texture2D" uid="uid://conu51ol0dwy0" path="res://assets/art/title_lady-final.png" id="3_mv7qn"]

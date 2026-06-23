@@ -31,7 +31,7 @@ func _process(_delta: float) -> void:
 	pass
 
 func show_spin_animation() -> void:
-	print_debug("show_spin_animation...")
+	#print_debug("show_spin_animation...")
 	
 	$AnimationPlayer1.play("wheel_spin")
 	

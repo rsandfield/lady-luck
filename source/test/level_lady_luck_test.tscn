@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cg53tng7bpkkc"]
 
 [ext_resource type="PackedScene" uid="uid://3gtimcic0h85" path="res://source/floor/lady_luck/lady_luck.tscn" id="1_cx7nt"]
-[ext_resource type="Texture2D" uid="uid://bttmqqhmjtuug" path="res://assets/art/background-green_velvet.png" id="1_kjol4"]
+[ext_resource type="Texture2D" uid="uid://bttmqqhmjtuug" path="res://assets/art/background-green-velvet.png" id="1_kjol4"]
 [ext_resource type="PackedScene" uid="uid://cpmgg2k6x6skc" path="res://source/floor/lady_luck/lady_luck_test.tscn" id="2_2usb8"]
 [ext_resource type="PackedScene" uid="uid://dmeiteun5t7gl" path="res://source/floor/lady_luck/lady_luck_test_alt.tscn" id="3_2usb8"]
 
